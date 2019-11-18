@@ -44,3 +44,6 @@ class twitwrapper:
                 top = tot_count
                 top_tweet = r
         return r
+
+    def retweet_top(self, tweet):
+        self._api.retweet(tweet)
